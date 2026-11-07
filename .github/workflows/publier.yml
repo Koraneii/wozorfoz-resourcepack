@@ -1,0 +1,36 @@
+name: Publier le resource pack
+
+on:
+  push:
+    branches: [main]
+    paths: ["pack/**", ".github/workflows/publier.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Créer le zip
+        run: |
+          cd pack
+          zip -r -X ../wozorfoz_resourcepack.zip .
+          cd ..
+          echo "SHA1=$(sha1sum wozorfoz_resourcepack.zip | cut -d' ' -f1)" >> "$GITHUB_ENV"
+
+      - name: Publier la version
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Resource pack v${{ github.run_number }}
+          make_latest: "true"
+          files: wozorfoz_resourcepack.zip
+          body: |
+            Lien de téléchargement permanent (toujours la dernière version) :
+            https://github.com/${{ github.repository }}/releases/latest/download/wozorfoz_resourcepack.zip
+
+            SHA-1 de cette version : `${{ env.SHA1 }}`
