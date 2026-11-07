@@ -6,12 +6,15 @@ Resource pack serveur (Minecraft Java 1.21.9) : objets cérémoniels et uniforme
 
 ![Aperçu des tenues](apercu_tenues.png)
 
+![Aperçu du fusil](apercu_fusil.png)
+
 ## Contenu
 
 | Objet | Modèle | Porté sur |
 | --- | --- | --- |
 | Couronne Consulaire | 3D (`wozorfoz:couronne`) | Tête |
 | Sceptre Consulaire | 3D (`wozorfoz:sceptre`) | Main |
+| Fusil de la Garde | 3D (`wozorfoz:fusil`) | Main |
 | Manteau Consulaire : haut et pans | Texture d'équipement (`wozorfoz:manteau`) : velours ombré, plis, hermine, broderie de l'engrenage dans le dos | Torse, jambes |
 | Uniforme de la Garde : casque, gilet tactique, treillis, bottes | Texture d'équipement (`wozorfoz:uniforme`) : camouflage olive, poches, brassard impérial | Tête, torse, jambes, pieds |
 
