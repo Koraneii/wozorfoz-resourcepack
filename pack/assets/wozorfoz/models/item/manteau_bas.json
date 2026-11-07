@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/generated",
+ "textures": {
+  "layer0": "wozorfoz:item/manteau_bas"
+ }
+}

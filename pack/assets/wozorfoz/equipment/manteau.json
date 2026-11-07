@@ -4,6 +4,11 @@
    {
     "texture": "wozorfoz:manteau"
    }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "wozorfoz:manteau"
+   }
   ]
  }
 }
