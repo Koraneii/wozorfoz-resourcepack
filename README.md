@@ -12,6 +12,8 @@ Resource pack serveur (Minecraft Java 1.21.9) : objets cérémoniels et uniforme
 
 ![Aperçu des barrières](apercu_barrieres.png)
 
+![Aperçu du pupitre](apercu_pupitre.png)
+
 ## Contenu
 
 | Objet | Modèle | Porté sur |
@@ -20,6 +22,7 @@ Resource pack serveur (Minecraft Java 1.21.9) : objets cérémoniels et uniforme
 | Sceptre Consulaire | 3D (`wozorfoz:sceptre`) | Main |
 | Fusil de la Garde | 3D (`wozorfoz:fusil`) | Main |
 | Cordon d'honneur, barrière de sécurité | 3D (`wozorfoz:cordon`, `wozorfoz:barriere`), posés par le datapack | Affichage + bloc barrière |
+| Pupitre d'activation (`wozorfoz:pupitre`) et gros bouton rouge (remplace le bouton en pierre noire polie) | 3D | Bloc conducteur + affichage |
 | Blocs de commande → platines de régie | Modèle de bloc (voyant orange : impulsion, vert : chaîne, violet : répétition ; voyant rouge : conditionnel) | Bloc |
 | Manteau Consulaire : haut et pans | Texture d'équipement (`wozorfoz:manteau`) : velours ombré, plis, hermine, broderie de l'engrenage dans le dos | Torse, jambes |
 | Uniforme de la Garde : casque, gilet tactique, treillis, bottes | Texture d'équipement (`wozorfoz:uniforme`) : camouflage olive, poches, brassard impérial | Tête, torse, jambes, pieds |
