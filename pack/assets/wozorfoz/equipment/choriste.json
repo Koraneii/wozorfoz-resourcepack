@@ -1,0 +1,14 @@
+{
+ "layers": {
+  "humanoid": [
+   {
+    "texture": "wozorfoz:choriste"
+   }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "wozorfoz:musicien"
+   }
+  ]
+ }
+}
