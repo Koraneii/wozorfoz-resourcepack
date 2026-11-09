@@ -1,0 +1,109 @@
+{
+ "model": {
+  "type": "minecraft:range_dispatch",
+  "property": "minecraft:custom_model_data",
+  "index": 0,
+  "entries": [
+   {
+    "threshold": 7701,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/biere"
+    }
+   },
+   {
+    "threshold": 7702,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/biere_brune"
+    }
+   },
+   {
+    "threshold": 7703,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/vin"
+    }
+   },
+   {
+    "threshold": 7704,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/cidre"
+    }
+   },
+   {
+    "threshold": 7705,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/hydromel_brew"
+    }
+   },
+   {
+    "threshold": 7706,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/rhum"
+    }
+   },
+   {
+    "threshold": 7707,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/vodka"
+    }
+   },
+   {
+    "threshold": 7708,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/whisky"
+    }
+   },
+   {
+    "threshold": 7709,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/absinthe"
+    }
+   },
+   {
+    "threshold": 7710,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/liqueur"
+    }
+   },
+   {
+    "threshold": 7711,
+    "model": {
+     "type": "minecraft:model",
+     "model": "wozorfoz:item/buffet/cafe"
+    }
+   },
+   {
+    "threshold": 7712,
+    "model": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/potion",
+     "tints": [
+      {
+       "type": "minecraft:potion",
+       "default": -13083194
+      }
+     ]
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/potion",
+   "tints": [
+    {
+     "type": "minecraft:potion",
+     "default": -13083194
+    }
+   ]
+  }
+ }
+}
