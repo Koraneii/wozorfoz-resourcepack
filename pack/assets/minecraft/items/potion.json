@@ -7,78 +7,221 @@
    {
     "threshold": 7701,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/biere"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/biere_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/biere"
+     }
     }
    },
    {
     "threshold": 7702,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/biere_brune"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/biere_brune_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/biere_brune"
+     }
     }
    },
    {
     "threshold": 7703,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/vin"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/vin_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/vin"
+     }
     }
    },
    {
     "threshold": 7704,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/cidre"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/cidre_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/cidre"
+     }
     }
    },
    {
     "threshold": 7705,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/hydromel_brew"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/hydromel_brew_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/hydromel_brew"
+     }
     }
    },
    {
     "threshold": 7706,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/rhum"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/rhum_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/rhum"
+     }
     }
    },
    {
     "threshold": 7707,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/vodka"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/vodka_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/vodka"
+     }
     }
    },
    {
     "threshold": 7708,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/whisky"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/whisky_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/whisky"
+     }
     }
    },
    {
     "threshold": 7709,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/absinthe"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/absinthe_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/absinthe"
+     }
     }
    },
    {
     "threshold": 7710,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/liqueur"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/liqueur_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/liqueur"
+     }
     }
    },
    {
     "threshold": 7711,
     "model": {
-     "type": "minecraft:model",
-     "model": "wozorfoz:item/buffet/cafe"
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/cafe_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/cafe"
+     }
     }
    },
    {
