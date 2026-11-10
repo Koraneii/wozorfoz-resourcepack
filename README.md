@@ -67,4 +67,7 @@ Les modèles 3D utilisent une palette de couleurs (`textures/item/palette.png`) 
 
 ## Crédits sonores
 
-- Volée et cloche : enregistrement « Cloches de l’église Saint-François de Vareilles (Saint-Pierre-le-Vieux) », découpé et mis en mono pour le carillon.
+Le carillon (50 s) et la cloche du couronnement sont montés à partir de vrais enregistrements de cloches :
+- Cloches de l'église Saint-Samson d'Aunay-sur-Odon (vidéo « Les Cloches Normandes ») : petite cloche, grosse cloche, bourdon.
+- Cloches de l'église Saint-François de Vareilles (Saint-Pierre-le-Vieux) : pleine volée en fond.
+- « Old church bell » (freesound, communauté) et une vidéo de cloche au soleil couchant : timbres des cloches intermédiaires.
