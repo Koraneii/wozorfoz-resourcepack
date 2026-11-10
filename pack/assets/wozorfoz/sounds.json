@@ -9,42 +9,10 @@
   ]
  },
  "cloche.bourdon": {
-  "subtitle": "Bourdon",
+  "subtitle": "Cloche",
   "sounds": [
    {
     "name": "wozorfoz:cloches/bourdon"
-   }
-  ]
- },
- "cloche.1": {
-  "subtitle": "Cloche",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/cloche1"
-   }
-  ]
- },
- "cloche.2": {
-  "subtitle": "Cloche",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/cloche2"
-   }
-  ]
- },
- "cloche.3": {
-  "subtitle": "Cloche",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/cloche3"
-   }
-  ]
- },
- "cloche.4": {
-  "subtitle": "Cloche",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/cloche4"
    }
   ]
  }

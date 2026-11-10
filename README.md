@@ -64,3 +64,7 @@ pack/
 ```
 
 Les modèles 3D utilisent une palette de couleurs (`textures/item/palette.png`) : chaque face pointe vers une case de couleur.
+
+## Crédits sonores
+
+- Volée et cloche : enregistrement « Cloches de l’église Saint-François de Vareilles (Saint-Pierre-le-Vieux) », découpé et mis en mono pour le carillon.
