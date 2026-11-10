@@ -1,0 +1,51 @@
+{
+ "carillon.volee": {
+  "subtitle": "Volée de cloches",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/volee",
+    "stream": true
+   }
+  ]
+ },
+ "cloche.bourdon": {
+  "subtitle": "Bourdon",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/bourdon"
+   }
+  ]
+ },
+ "cloche.1": {
+  "subtitle": "Cloche",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/cloche1"
+   }
+  ]
+ },
+ "cloche.2": {
+  "subtitle": "Cloche",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/cloche2"
+   }
+  ]
+ },
+ "cloche.3": {
+  "subtitle": "Cloche",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/cloche3"
+   }
+  ]
+ },
+ "cloche.4": {
+  "subtitle": "Cloche",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/cloche4"
+   }
+  ]
+ }
+}
