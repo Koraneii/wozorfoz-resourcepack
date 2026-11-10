@@ -1,108 +1,18 @@
 {
+ "carillon.volee": {
+  "subtitle": "Carillon",
+  "sounds": [
+   {
+    "name": "wozorfoz:cloches/volee",
+    "stream": true
+   }
+  ]
+ },
  "cloche.bourdon": {
   "subtitle": "Cloche",
   "sounds": [
    {
     "name": "wozorfoz:cloches/bourdon"
-   }
-  ]
- },
- "carillon.1": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_1",
-    "stream": true
-   }
-  ]
- },
- "carillon.2": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_2",
-    "stream": true
-   }
-  ]
- },
- "carillon.3": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_3",
-    "stream": true
-   }
-  ]
- },
- "carillon.4": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_4",
-    "stream": true
-   }
-  ]
- },
- "carillon.5": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_5",
-    "stream": true
-   }
-  ]
- },
- "carillon.6": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_6",
-    "stream": true
-   }
-  ]
- },
- "carillon.7": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_7",
-    "stream": true
-   }
-  ]
- },
- "carillon.8": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_8",
-    "stream": true
-   }
-  ]
- },
- "carillon.9": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_9",
-    "stream": true
-   }
-  ]
- },
- "carillon.10": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_10",
-    "stream": true
-   }
-  ]
- },
- "carillon.11": {
-  "subtitle": "Carillon",
-  "sounds": [
-   {
-    "name": "wozorfoz:cloches/carillon_11",
-    "stream": true
    }
   ]
  }
