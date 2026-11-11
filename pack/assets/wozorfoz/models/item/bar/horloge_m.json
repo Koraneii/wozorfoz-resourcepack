@@ -2,7 +2,8 @@
  "credit": "Empire Consulaire de Wozorfoz",
  "textures": {
   "p": "wozorfoz:item/buffet_palette",
-  "particle": "wozorfoz:item/buffet_palette"
+  "particle": "wozorfoz:item/buffet_palette",
+  "or_poli": "wozorfoz:item/or_poli"
  },
  "elements": [
   {
@@ -87,57 +88,57 @@
    "faces": {
     "north": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      5.103,
+      6.742,
+      6.103,
+      7.742
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "south": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      5.103,
+      6.742,
+      6.103,
+      7.742
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "east": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      5.113,
+      1.517,
+      5.613,
+      2.517
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "west": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      5.113,
+      1.517,
+      5.613,
+      2.517
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "up": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      4.639,
+      6.27,
+      5.639,
+      6.77
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "down": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      4.948,
+      1.567,
+      5.948,
+      2.067
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     }
    }
   }

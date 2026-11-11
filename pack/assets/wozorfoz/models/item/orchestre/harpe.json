@@ -2,7 +2,9 @@
  "credit": "Empire Consulaire de Wozorfoz",
  "textures": {
   "p": "wozorfoz:item/buffet_palette",
-  "particle": "wozorfoz:item/buffet_palette"
+  "particle": "wozorfoz:item/buffet_palette",
+  "or_poli": "wozorfoz:item/or_poli",
+  "or_vieux": "wozorfoz:item/or_vieux"
  },
  "elements": [
   {
@@ -19,57 +21,57 @@
    "faces": {
     "north": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      11.134,
+      0.0,
+      12.734,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "south": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      11.134,
+      0.0,
+      12.734,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "east": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      10.68,
+      0.0,
+      12.68,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "west": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      10.68,
+      0.0,
+      12.68,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "up": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      10.689,
+      1.258,
+      12.289,
+      3.258
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "down": {
      "uv": [
-      2.5,
-      6.5,
-      3.5,
-      7.5
+      10.986,
+      11.011,
+      12.586,
+      13.011
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     }
    }
   },
@@ -87,57 +89,57 @@
    "faces": {
     "north": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      1.649,
+      2.297,
+      13.649,
+      3.697
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      1.649,
+      2.297,
+      13.649,
+      3.697
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      5.227,
+      11.811,
+      8.227,
+      13.211
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      5.227,
+      11.811,
+      8.227,
+      13.211
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      1.526,
+      1.461,
+      13.526,
+      4.461
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      1.608,
+      10.517,
+      13.608,
+      13.517
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },
@@ -232,57 +234,57 @@
    "faces": {
     "north": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      4.231,
+      9.769,
+      12.631,
+      13.169
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      4.231,
+      9.769,
+      12.631,
+      13.169
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      7.868,
+      5.38,
+      9.468,
+      8.78
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      7.868,
+      5.38,
+      9.468,
+      8.78
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      3.996,
+      10.517,
+      12.396,
+      12.117
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      4.5,
-      6.5,
-      5.5,
-      7.5
+      4.153,
+      6.148,
+      12.553,
+      7.748
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },

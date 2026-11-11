@@ -2,7 +2,9 @@
  "credit": "Empire Consulaire de Wozorfoz",
  "textures": {
   "p": "wozorfoz:item/palette",
-  "particle": "wozorfoz:item/palette"
+  "particle": "wozorfoz:item/palette",
+  "or_poli": "wozorfoz:item/or_poli",
+  "or_vieux": "wozorfoz:item/or_vieux"
  },
  "elements": [
   {
@@ -87,57 +89,57 @@
    "faces": {
     "north": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      7.685,
+      16.0,
+      8.485
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      7.685,
+      16.0,
+      8.485
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      12.662,
+      2.391,
+      14.862,
+      3.191
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      12.662,
+      2.391,
+      14.862,
+      3.191
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      6.357,
+      16.0,
+      8.557
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      2.171,
+      16.0,
+      4.371
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },
@@ -155,57 +157,57 @@
    "faces": {
     "north": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      1.025,
+      16.0,
+      1.825
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      1.025,
+      16.0,
+      1.825
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      12.093,
+      10.93,
+      14.293,
+      11.73
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      12.093,
+      10.93,
+      14.293,
+      11.73
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      0.31,
+      16.0,
+      2.51
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      9.924,
+      16.0,
+      12.124
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },
@@ -223,57 +225,57 @@
    "faces": {
     "north": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.157,
+      0.0,
+      0.957,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.157,
+      0.0,
+      0.957,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      0.0,
+      2.2,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      0.0,
+      2.2,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      14.887,
+      0.465,
+      15.687,
+      2.665
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      0.0,
+      10.079,
+      0.8,
+      12.279
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },
@@ -291,57 +293,57 @@
    "faces": {
     "north": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      5.328,
+      0.0,
+      6.128,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "south": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      5.328,
+      0.0,
+      6.128,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "east": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      4.695,
+      0.0,
+      6.895,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "west": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      4.695,
+      0.0,
+      6.895,
+      16.0
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "up": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      4.858,
+      13.335,
+      5.658,
+      15.535
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     },
     "down": {
      "uv": [
-      5,
-      1,
-      7,
-      3
+      5.171,
+      9.148,
+      5.971,
+      11.348
      ],
-     "texture": "#p"
+     "texture": "#or_vieux"
     }
    }
   },
@@ -359,57 +361,57 @@
    "faces": {
     "north": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      5.227,
+      14.436,
+      8.227,
+      15.836
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "south": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      5.227,
+      14.436,
+      8.227,
+      15.836
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "east": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      5.876,
+      9.351,
+      6.876,
+      10.751
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "west": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      5.876,
+      9.351,
+      6.876,
+      10.751
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "up": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      4.825,
+      14.157,
+      7.825,
+      15.157
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     },
     "down": {
      "uv": [
-      1,
-      1,
-      3,
-      3
+      5.093,
+      9.607,
+      8.093,
+      10.607
      ],
-     "texture": "#p"
+     "texture": "#or_poli"
     }
    }
   },
