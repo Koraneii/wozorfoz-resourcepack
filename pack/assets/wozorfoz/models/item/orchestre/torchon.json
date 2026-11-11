@@ -1,0 +1,309 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "p": "wozorfoz:item/buffet_palette",
+  "particle": "wozorfoz:item/buffet_palette"
+ },
+ "elements": [
+  {
+   "from": [
+    5,
+    0,
+    7
+   ],
+   "to": [
+    11,
+    6,
+    9
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      14.5,
+      4.5,
+      15.5,
+      5.5
+     ],
+     "texture": "#p"
+    }
+   }
+  },
+  {
+   "from": [
+    5.5,
+    0,
+    9
+   ],
+   "to": [
+    10.5,
+    4,
+    9.6
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      0.5,
+      6.5,
+      1.5,
+      7.5
+     ],
+     "texture": "#p"
+    }
+   }
+  },
+  {
+   "from": [
+    4.9,
+    2,
+    6.9
+   ],
+   "to": [
+    11.1,
+    2.6,
+    9.1
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    }
+   }
+  }
+ ],
+ "display": {
+  "thirdperson_righthand": {
+   "rotation": [
+    90,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    1,
+    -2
+   ],
+   "scale": [
+    0.7,
+    0.7,
+    0.7
+   ]
+  },
+  "thirdperson_lefthand": {
+   "rotation": [
+    90,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    1,
+    -2
+   ],
+   "scale": [
+    0.7,
+    0.7,
+    0.7
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    20,
+    -20,
+    0
+   ],
+   "translation": [
+    1,
+    2,
+    0
+   ],
+   "scale": [
+    0.6,
+    0.6,
+    0.6
+   ]
+  },
+  "firstperson_lefthand": {
+   "rotation": [
+    20,
+    -20,
+    0
+   ],
+   "translation": [
+    1,
+    2,
+    0
+   ],
+   "scale": [
+    0.6,
+    0.6,
+    0.6
+   ]
+  },
+  "gui": {
+   "rotation": [
+    25,
+    -35,
+    0
+   ],
+   "scale": [
+    0.75,
+    0.75,
+    0.75
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "fixed": {
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  }
+ }
+}
