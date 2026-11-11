@@ -1,0 +1,69 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "t": "wozorfoz:item/tapis",
+  "particle": "wozorfoz:item/tapis"
+ },
+ "elements": [
+  {
+   "from": [
+    -8,
+    0,
+    -16
+   ],
+   "to": [
+    24,
+    0.15,
+    32
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#t"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#t"
+    }
+   }
+  }
+ ],
+ "display": {
+  "fixed": {
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  "gui": {
+   "rotation": [
+    60,
+    0,
+    0
+   ],
+   "scale": [
+    0.35,
+    0.35,
+    0.35
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.2,
+    0.2,
+    0.2
+   ]
+  }
+ }
+}
