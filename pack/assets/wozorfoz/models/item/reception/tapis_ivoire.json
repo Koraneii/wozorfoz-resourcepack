@@ -1,0 +1,69 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "t": "wozorfoz:item/reception/tapis_ivoire",
+  "particle": "wozorfoz:item/reception/tapis_ivoire"
+ },
+ "elements": [
+  {
+   "from": [
+    -12,
+    0,
+    -16
+   ],
+   "to": [
+    28,
+    0.15,
+    32
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      13.333333333333334,
+      16
+     ],
+     "texture": "#t"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      13.333333333333334,
+      16
+     ],
+     "texture": "#t"
+    }
+   }
+  }
+ ],
+ "display": {
+  "fixed": {
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  "gui": {
+   "rotation": [
+    60,
+    0,
+    0
+   ],
+   "scale": [
+    0.3,
+    0.3,
+    0.3
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.2,
+    0.2,
+    0.2
+   ]
+  }
+ }
+}
