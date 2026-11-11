@@ -227,6 +227,46 @@
    {
     "threshold": 7712,
     "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/vin_blanc_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/vin_blanc"
+     }
+    }
+   },
+   {
+    "threshold": 7713,
+    "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:display_context",
+     "cases": [
+      {
+       "when": "gui",
+       "model": {
+        "type": "minecraft:model",
+        "model": "wozorfoz:item/buffet/vin_rose_icone"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "wozorfoz:item/buffet/vin_rose"
+     }
+    }
+   },
+   {
+    "threshold": 7714,
+    "model": {
      "type": "minecraft:model",
      "model": "minecraft:item/potion",
      "tints": [
