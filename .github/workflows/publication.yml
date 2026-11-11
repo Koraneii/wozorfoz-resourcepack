@@ -3,7 +3,7 @@ name: Publier le resource pack
 on:
   push:
     branches: [main]
-    paths: ["pack/**", ".github/workflows/publier.yml"]
+    paths: ["pack/**", ".github/workflows/publication.yml"]
   workflow_dispatch:
 
 permissions:
