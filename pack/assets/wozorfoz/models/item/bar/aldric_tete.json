@@ -1,0 +1,173 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "t": "wozorfoz:item/aldric_tete",
+  "particle": "wozorfoz:item/aldric_tete"
+ },
+ "elements": [
+  {
+   "from": [
+    4,
+    4,
+    4
+   ],
+   "to": [
+    12,
+    12,
+    12
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      0,
+      2,
+      2
+     ],
+     "texture": "#t"
+    },
+    "east": {
+     "uv": [
+      6,
+      0,
+      8,
+      2
+     ],
+     "texture": "#t"
+    },
+    "south": {
+     "uv": [
+      4,
+      0,
+      6,
+      2
+     ],
+     "texture": "#t"
+    },
+    "west": {
+     "uv": [
+      2,
+      0,
+      4,
+      2
+     ],
+     "texture": "#t"
+    },
+    "up": {
+     "uv": [
+      8,
+      0,
+      10,
+      2
+     ],
+     "texture": "#t"
+    },
+    "down": {
+     "uv": [
+      10,
+      0,
+      12,
+      2
+     ],
+     "texture": "#t"
+    }
+   }
+  },
+  {
+   "from": [
+    3.6,
+    3.6,
+    3.6
+   ],
+   "to": [
+    12.4,
+    12.4,
+    12.4
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0,
+      2,
+      2,
+      4
+     ],
+     "texture": "#t"
+    },
+    "east": {
+     "uv": [
+      6,
+      2,
+      8,
+      4
+     ],
+     "texture": "#t"
+    },
+    "south": {
+     "uv": [
+      4,
+      2,
+      6,
+      4
+     ],
+     "texture": "#t"
+    },
+    "west": {
+     "uv": [
+      2,
+      2,
+      4,
+      4
+     ],
+     "texture": "#t"
+    },
+    "up": {
+     "uv": [
+      8,
+      2,
+      10,
+      4
+     ],
+     "texture": "#t"
+    },
+    "down": {
+     "uv": [
+      10,
+      2,
+      12,
+      4
+     ],
+     "texture": "#t"
+    }
+   }
+  }
+ ],
+ "display": {
+  "head": {
+   "scale": [
+    1.6,
+    1.6,
+    1.6
+   ]
+  },
+  "gui": {
+   "rotation": [
+    30,
+    225,
+    0
+   ],
+   "scale": [
+    1.2,
+    1.2,
+    1.2
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.6,
+    0.6,
+    0.6
+   ]
+  }
+ }
+}

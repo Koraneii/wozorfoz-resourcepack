@@ -1,0 +1,14 @@
+{
+ "layers": {
+  "humanoid": [
+   {
+    "texture": "wozorfoz:barman"
+   }
+  ],
+  "humanoid_leggings": [
+   {
+    "texture": "wozorfoz:barman"
+   }
+  ]
+ }
+}
