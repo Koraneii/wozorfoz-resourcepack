@@ -1,0 +1,222 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "p": "wozorfoz:item/buffet_palette",
+  "particle": "wozorfoz:item/buffet_palette"
+ },
+ "elements": [
+  {
+   "from": [
+    7.88,
+    6.6,
+    9.4
+   ],
+   "to": [
+    8.12,
+    13.9,
+    9.55
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    }
+   }
+  },
+  {
+   "from": [
+    7.65,
+    7.65,
+    9.3
+   ],
+   "to": [
+    8.35,
+    8.35,
+    9.55
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      10.5,
+      12.5,
+      11.5,
+      13.5
+     ],
+     "texture": "#p"
+    }
+   }
+  }
+ ],
+ "display": {
+  "fixed": {
+   "translation": [
+    0,
+    0,
+    0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  "gui": {
+   "rotation": [
+    25,
+    -35,
+    0
+   ],
+   "translation": [
+    0,
+    -1,
+    0
+   ],
+   "scale": [
+    0.8,
+    0.8,
+    0.8
+   ]
+  },
+  "ground": {
+   "translation": [
+    0,
+    2,
+    0
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "thirdperson_righthand": {
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "translation": [
+    0,
+    0,
+    2
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  },
+  "firstperson_righthand": {
+   "rotation": [
+    0,
+    -30,
+    0
+   ],
+   "translation": [
+    1,
+    1,
+    0
+   ],
+   "scale": [
+    0.5,
+    0.5,
+    0.5
+   ]
+  }
+ }
+}
