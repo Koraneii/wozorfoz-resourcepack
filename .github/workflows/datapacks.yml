@@ -1,0 +1,42 @@
+name: Publier les datapacks
+
+on:
+  push:
+    branches: [main]
+    paths: ["datapacks/**", ".github/workflows/datapacks.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: datapacks
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Liste et empreintes
+        run: |
+          cd datapacks
+          for f in *.zip; do echo "$f $(sha1sum "$f" | cut -d' ' -f1)"; done > datapacks.txt
+          cat datapacks.txt
+      - name: Vérifier que cette version est bien la plus récente
+        run: |
+          TETE=$(git ls-remote origin refs/heads/main | cut -f1)
+          if [ "$TETE" = "$GITHUB_SHA" ]; then echo "RECENTE=true" >> "$GITHUB_ENV"; else echo "RECENTE=false" >> "$GITHUB_ENV"; fi
+      - name: Publier
+        if: env.RECENTE == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: datapacks
+          name: Datapacks (version courante)
+          make_latest: "false"
+          prerelease: true
+          files: |
+            datapacks/*.zip
+            datapacks/datapacks.txt
+          body: |
+            Datapacks de Wôzorfôz (toujours la version la plus récente), récupérés par le plugin WzMaj (/wzmaj datapacks).

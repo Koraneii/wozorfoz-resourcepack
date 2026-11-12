@@ -1,0 +1,19 @@
+# WzMaj : mises à jour depuis GitHub, sans redémarrage ni FTP.
+
+# Resource pack : version « courant » (toujours la plus récente).
+# Le plugin le télécharge, calcule son SHA-1 et l'envoie lui-même aux joueurs.
+# => laisser resource-pack et resource-pack-sha1 VIDES dans server.properties.
+pack:
+  url: "https://github.com/Koraneii/wozorfoz-resourcepack/releases/download/courant/wozorfoz_resourcepack.zip"
+  # true : le joueur doit accepter le pack pour rester (comme require-resource-pack)
+  obligatoire: true
+  message: "Pack de ressources de l'Empire de Wôzorfôz"
+
+# Datapacks : liste publiée sur GitHub (datapacks.txt : « nom.zip sha1 ») et fichiers à côté.
+datapacks:
+  base: "https://github.com/Koraneii/wozorfoz-resourcepack/releases/download/datapacks/"
+
+# Au démarrage du serveur : vérifier le pack (true) et les datapacks (false par défaut : /wzmaj datapacks)
+au-demarrage:
+  pack: true
+  datapacks: false

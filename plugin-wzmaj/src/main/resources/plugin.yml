@@ -1,0 +1,17 @@
+name: WzMaj
+version: '${version}'
+main: fr.wozorfoz.wzmaj.WzMajPlugin
+api-version: '1.21'
+description: Met à jour le resource pack et les datapacks de Wôzorfôz depuis GitHub, sans redémarrage.
+authors: [Koraneii]
+
+commands:
+  wzmaj:
+    description: Met à jour le resource pack et les datapacks depuis GitHub.
+    usage: /wzmaj [tout|pack|datapacks|info]
+    permission: wzmaj.admin
+
+permissions:
+  wzmaj.admin:
+    description: Lancer les mises à jour.
+    default: op
