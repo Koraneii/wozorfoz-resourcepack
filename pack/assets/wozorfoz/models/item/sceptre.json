@@ -3,8 +3,8 @@
  "textures": {
   "p": "wozorfoz:item/palette",
   "particle": "wozorfoz:item/palette",
-  "or_vieux": "wozorfoz:item/or_vieux",
-  "or_poli": "wozorfoz:item/or_poli"
+  "or_poli": "wozorfoz:item/or_poli",
+  "or_vieux": "wozorfoz:item/or_vieux"
  },
  "elements": [
   {
