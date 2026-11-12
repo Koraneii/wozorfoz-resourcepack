@@ -3,6 +3,7 @@
  "textures": {
   "p": "wozorfoz:item/buffet_palette",
   "particle": "wozorfoz:item/buffet_palette",
+  "fl": "wozorfoz:item/reception/flamme_torchere",
   "or_poli": "wozorfoz:item/or_poli",
   "or_vieux": "wozorfoz:item/or_vieux"
  },
