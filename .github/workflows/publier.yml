@@ -9,11 +9,21 @@ on:
 permissions:
   contents: write
 
+# une seule publication à la fois, dans l'ordre des envois
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
 jobs:
   publier:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Vérifier que cette version est bien la plus récente
+        run: |
+          TETE=$(git ls-remote origin refs/heads/main | cut -f1)
+          if [ "$TETE" = "$GITHUB_SHA" ]; then echo "RECENTE=true" >> "$GITHUB_ENV"; else echo "RECENTE=false" >> "$GITHUB_ENV"; fi
 
       - name: Créer le zip
         run: |
@@ -27,10 +37,27 @@ jobs:
         with:
           tag_name: v${{ github.run_number }}
           name: Resource pack v${{ github.run_number }}
-          make_latest: "true"
+          make_latest: ${{ env.RECENTE }}
           files: wozorfoz_resourcepack.zip
           body: |
-            Lien de téléchargement permanent (toujours la dernière version) :
-            https://github.com/${{ github.repository }}/releases/latest/download/wozorfoz_resourcepack.zip
+            Lien de téléchargement permanent pour le serveur (toujours la version la plus récente) :
+            https://github.com/${{ github.repository }}/releases/download/courant/wozorfoz_resourcepack.zip
 
             SHA-1 de cette version : `${{ env.SHA1 }}`
+
+      # « courant » : version fixe que seul le dernier envoi met à jour (une publication en retard ne peut pas l'écraser)
+      - name: Mettre à jour la version courante
+        if: env.RECENTE == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: courant
+          name: Resource pack (version courante)
+          make_latest: "false"
+          prerelease: true
+          files: wozorfoz_resourcepack.zip
+          body: |
+            Toujours la version la plus récente du resource pack : v${{ github.run_number }}.
+            Lien pour le serveur :
+            https://github.com/${{ github.repository }}/releases/download/courant/wozorfoz_resourcepack.zip
+
+            SHA-1 : `${{ env.SHA1 }}`
