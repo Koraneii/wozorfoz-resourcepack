@@ -4,8 +4,8 @@
   "p": "wozorfoz:item/palette",
   "d": "wozorfoz:item/drapeau_empire",
   "particle": "wozorfoz:item/palette",
-  "or_poli": "wozorfoz:item/or_poli",
-  "or_vieux": "wozorfoz:item/or_vieux"
+  "or_vieux": "wozorfoz:item/or_vieux",
+  "or_poli": "wozorfoz:item/or_poli"
  },
  "elements": [
   {
