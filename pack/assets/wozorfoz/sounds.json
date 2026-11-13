@@ -46,5 +46,21 @@
     "name": "wozorfoz:nature/sanglier3"
    }
   ]
+ },
+ "nature.cerf_brame": {
+  "subtitle": "Cerf",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/cerf_brame"
+   }
+  ]
+ },
+ "nature.cerf_souffle": {
+  "subtitle": "Cerf qui souffle",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/cerf_souffle"
+   }
+  ]
  }
 }
