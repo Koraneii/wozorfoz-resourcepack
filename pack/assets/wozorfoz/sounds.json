@@ -68,7 +68,8 @@
   "sounds": [
    {
     "name": "wozorfoz:nature/ambiance_nuit",
-    "stream": true
+    "stream": true,
+    "volume": 0.45
    }
   ]
  }
