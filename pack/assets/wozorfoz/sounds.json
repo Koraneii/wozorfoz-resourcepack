@@ -62,5 +62,14 @@
     "name": "wozorfoz:nature/cerf_souffle"
    }
   ]
+ },
+ "nature.ambiance_nuit": {
+  "subtitle": "Forêt la nuit",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/ambiance_nuit",
+    "stream": true
+   }
+  ]
  }
 }
