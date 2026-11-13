@@ -1,0 +1,125 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "peau_cendre": "wozorfoz:item/nature/wendigo_peau_cendre",
+  "cotes": "wozorfoz:item/nature/wendigo_cotes",
+  "crane": "wozorfoz:item/nature/wendigo_crane",
+  "bois_sombre": "wozorfoz:item/nature/wendigo_bois_sombre",
+  "poils": "wozorfoz:item/nature/wendigo_poils",
+  "griffe": "wozorfoz:item/nature/wendigo_griffe",
+  "p": "wozorfoz:item/buffet_palette",
+  "particle": "wozorfoz:item/nature/wendigo_peau_cendre"
+ },
+ "elements": [
+  {
+   "from": [
+    12.917,
+    15.65,
+    7.083
+   ],
+   "to": [
+    13.35,
+    16.083,
+    8.917
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "south": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "east": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "west": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "up": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    },
+    "down": {
+     "uv": [
+      6.5,
+      6.5,
+      7.5,
+      7.5
+     ],
+     "texture": "#p"
+    }
+   },
+   "rotation": {
+    "angle": -22.5,
+    "axis": "z",
+    "origin": [
+     12.867,
+     15.533,
+     8.0
+    ]
+   }
+  }
+ ],
+ "display": {
+  "fixed": {
+   "translation": [
+    0,
+    16,
+    0
+   ],
+   "scale": [
+    3,
+    3,
+    3
+   ]
+  },
+  "gui": {
+   "rotation": [
+    10,
+    -120,
+    0
+   ],
+   "scale": [
+    0.45,
+    0.45,
+    0.45
+   ]
+  },
+  "ground": {
+   "scale": [
+    0.3,
+    0.3,
+    0.3
+   ]
+  }
+ }
+}
