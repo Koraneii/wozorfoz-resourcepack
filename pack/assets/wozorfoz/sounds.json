@@ -15,5 +15,36 @@
     "name": "wozorfoz:cloches/bourdon"
    }
   ]
+ },
+ "nature.hibou": {
+  "subtitle": "Hibou",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/hibou1"
+   },
+   {
+    "name": "wozorfoz:nature/hibou2"
+   },
+   {
+    "name": "wozorfoz:nature/hibou3"
+   },
+   {
+    "name": "wozorfoz:nature/hibou4"
+   }
+  ]
+ },
+ "nature.sanglier": {
+  "subtitle": "Sanglier",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/sanglier1"
+   },
+   {
+    "name": "wozorfoz:nature/sanglier2"
+   },
+   {
+    "name": "wozorfoz:nature/sanglier3"
+   }
+  ]
  }
 }
