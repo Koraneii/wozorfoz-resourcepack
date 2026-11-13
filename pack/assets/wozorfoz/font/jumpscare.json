@@ -1,0 +1,13 @@
+{
+ "providers": [
+  {
+   "type": "bitmap",
+   "file": "wozorfoz:font/wendigo_visage.png",
+   "height": 100,
+   "ascent": 56,
+   "chars": [
+    ""
+   ]
+  }
+ ]
+}
