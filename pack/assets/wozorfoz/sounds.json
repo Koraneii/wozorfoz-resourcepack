@@ -72,5 +72,15 @@
     "volume": 0.45
    }
   ]
+ },
+ "nature.ambiance_eau": {
+  "subtitle": "Ruisseau",
+  "sounds": [
+   {
+    "name": "wozorfoz:nature/ambiance_eau",
+    "stream": true,
+    "volume": 0.45
+   }
+  ]
  }
 }

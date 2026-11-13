@@ -1,0 +1,62 @@
+{
+ "credit": "Empire Consulaire de Wozorfoz",
+ "textures": {
+  "b": "wozorfoz:item/nature/brume",
+  "particle": "wozorfoz:item/nature/brume"
+ },
+ "elements": [
+  {
+   "from": [
+    -16,
+    8,
+    -16
+   ],
+   "to": [
+    32,
+    8,
+    32
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#b"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#b"
+    }
+   }
+  }
+ ],
+ "display": {
+  "fixed": {
+   "scale": [
+    4,
+    4,
+    4
+   ]
+  },
+  "gui": {
+   "rotation": [
+    60,
+    0,
+    0
+   ],
+   "scale": [
+    0.3,
+    0.3,
+    0.3
+   ]
+  }
+ }
+}
