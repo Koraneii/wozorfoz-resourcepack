@@ -3,6 +3,8 @@
  "textures": {
   "fauve": "wozorfoz:item/nature/fourrure_fauve",
   "fauve_clair": "wozorfoz:item/nature/fourrure_fauve_clair",
+  "fauve_fonce": "wozorfoz:item/nature/fourrure_fauve_fonce",
+  "museau": "wozorfoz:item/nature/fourrure_museau",
   "creme": "wozorfoz:item/nature/fourrure_creme",
   "brun": "wozorfoz:item/nature/fourrure_brun",
   "roux": "wozorfoz:item/nature/fourrure_roux",
